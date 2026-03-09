@@ -1,7 +1,7 @@
 import React from 'react';
 import BloodDrop from '../assets/BloodDrop.png';
 import SubHeroImage from '../assets/SubHeroImage.png';
-import imgBorder from '../assets/imgBorder.png';
+import imgBorder from '../assets/ImgBorder.png';
 import './SubHeroSection.css';
 
 const SubHeroSection = () => {
