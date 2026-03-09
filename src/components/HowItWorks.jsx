@@ -1,5 +1,5 @@
 import React from 'react';
-import settings from '../assets/Settings.png';
+import settings from '../assets/settings.png';
 import BlackBeanDkArrow from '../assets/BlackBeanDkArrow.png';
 import BlackBeanMbArrow from '../assets/BlackBeanMbArrow.png';
 import RedDkArrow from '../assets/RedDkArrow.png';
