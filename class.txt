@@ -1,3 +1,44 @@
+ {/* RIGHT — Text content */}
+        <div className="flex flex-col gap-4 max-w-xl">
+          {/* Blood drop icon */}
+          <img src={BloodDrop} alt="Blood Drop" className="w-8 h-8" />
+
+          {/* Heading */}
+          <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 leading-snug">
+            From Crisis Response to{' '}
+            <span className="text-red-500">Predictive Care</span>
+          </h2>
+
+          {/* Body copy */}
+          <p className="text-gray-600 text-base leading-relaxed">
+            Blood shortages don't happen suddenly — they are predictable.
+            EjeNex transforms fragmented blood systems into a single
+            intelligent network that anticipates demand, motivates donors,
+            and stabilizes supply before lives are put at risk.
+          </p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Base class
 class Animals {
     constructor(name, age){

@@ -15,6 +15,7 @@ export default {
         secondary: { 
           50: "#F9EFC9",      // champagne
           100: "#FBFBFB",     // very light gray
+          200: "#E5E5E5",     // more light gray
         },
         accent: "#657786",
       },

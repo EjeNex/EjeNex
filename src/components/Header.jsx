@@ -7,7 +7,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <>
+    <header className="fixed top-0 left-0 w-full z-50">
       {/* MOBILE HEADER */}
       <div className="lg:hidden w-full bg-primary-100 px-5 py-3 flex justify-between items-center text-primary-50">
         <a href="#" className="flex items-center gap-2">
@@ -41,12 +41,11 @@ const Header = () => {
       </div>
 
       {/* DESKTOP HEADER (YOUR ORIGINAL) */}
-      <div className="hidden lg:flex w-full h-10 bg-secondary-100 font-semibold py-8 px-10 justify-between items-center text-sm font-sans text-primary-50">
-        <a href="#" className="flex items-center gap-2">
+      <div className="hidden lg:flex w-full h-10 bg-secondary-100 font-semibold py-8 px-16 lg:pl-5 lg:pr-16 justify-between items-center text-sm font-sans text-primary-50">
+        <a href="#" className="flex items-center">
           <img src={logo} alt="ejenex_logo" width={60} />
           <h4>EjeNex</h4>
         </a>
-
         <div className="space-x-5">
           <a href="#">About us</a>
           <a href="#">Features</a>
@@ -60,7 +59,7 @@ const Header = () => {
           </a>
         </div>
       </div>
-    </>
+    </header>
   );
 };
 

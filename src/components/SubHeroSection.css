@@ -1,0 +1,41 @@
+/* iPad only (768px – 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .subhero-image-block {
+    height: 200px;
+  }
+
+  .subhero-border {
+    width: 100%;
+    bottom: -20%;
+    left: 42%;
+    transform: translateX(-50%);
+  }
+
+  .subhero-image {
+    width: 350px;
+    bottom: -20%;
+    right: auto;
+    left: 70%;
+    transform: translateX(-40%);
+  }
+
+}
+
+/* .subhero-bg {
+  position: relative;
+}
+
+.subhero-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: var(--color-secondary-50); 
+  opacity: 100; 
+  z-index: 0;
+}
+
+.subhero-bg > * {
+  position: relative;
+  z-index: 90;
+} */
